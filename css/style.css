@@ -1,0 +1,114 @@
+/* || General Style Rules */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* || Header and Navigator */
+header {
+    font-size: 20px;
+    overflow: auto;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+nav li {
+    display: inline;
+    padding: 0 1rem;
+}
+
+nav a,
+nav a:visited {
+    color: #1e6bb8;
+}
+
+
+nav #brand {
+    padding-left: 1rem;
+    color: orange;
+    background: url(../img/favicon-32x32.png) no-repeat left 50%;
+    background-size: 0.8rem;
+}
+
+/* || Main */
+main {
+    max-width: 100%;
+    margin: 0 auto 2rem;
+
+}
+
+main nav a {
+    text-transform: capitalize;
+}
+
+.slogan,
+.motivation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section:not(:first-child) {
+    min-width: 300px;
+    max-width: 900px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+section:not(:first-child) h2 {
+    text-align: center;
+}
+
+.active {
+    background: antiquewhite;
+}
+
+/* || Footer */
+footer {
+    color: #6D7780;
+    font-size: 0.5rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    background: #F9F9FA;
+}
